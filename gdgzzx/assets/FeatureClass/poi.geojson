@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "poi",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "fid": 1, "name": "水卡充值" },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[110.85078658414831, 21.895275034426689]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "fid": 2, "name": "饭卡充值" },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[110.851324627269847, 21.894778297261372]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "fid": 3, "name": "新华书店" },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[110.852919925125221, 21.894803258969269]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "fid": 4, "name": "校医室" },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[110.852753131757609, 21.894865663219896]]
+      }
+    }
+  ]
+}

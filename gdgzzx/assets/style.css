@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  block-size: 100vb;
+  margin: 0;
+}
+
+#map {
+  block-size: 100%;
+}
